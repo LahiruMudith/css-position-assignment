@@ -1,0 +1,59 @@
+header{
+    border:solid black;
+    border-width: 0 0 5px 0;
+}
+#logo{
+    width: 15vw;
+    padding: 2vh;
+}
+.navbar{
+    list-style-type: none;
+    position: absolute;
+}
+#header-navbar{
+    display: flex;
+    right: 1vw;
+    top: 0vw;
+}
+#header-navbar>li{
+    margin: 10px;
+}
+
+.navbar-font{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+nav{
+    width:15vw;
+    height: 83.2vh;
+    background: purple;
+    position: relative;
+}
+#side-navbar>li{
+    margin: 15px;
+    color: white;
+}
+
+footer{
+    width: 100vw;
+    height: 6.1vh;
+    background-color: grey;
+    position: relative;
+}
+.footer-text{
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 8vw;
+    height: 1vh;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
