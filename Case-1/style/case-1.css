@@ -1,0 +1,189 @@
+body > div {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+body > div:first-child {
+    background: blue;
+}
+
+body > div:nth-child(2) {
+    background: darkred;
+    right: 0;
+}
+
+body > div:nth-child(3) {
+    background: green;
+    bottom: 0;
+}
+
+body > div:nth-child(4) {
+    background: purple;
+    bottom: 0;
+    right: 0;
+}
+
+body > div > span:first-child {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+
+    position: absolute;
+}
+
+body > div:first-child > span:first-child {
+    border-bottom-right-radius: 100%;
+    top: 0;
+    left: 0;
+}
+
+body > div:nth-child(2) > span:first-child {
+    border-bottom-left-radius: 100%;
+    right: 0;
+}
+
+body > div:nth-child(3) > span:first-child {
+    border-top-right-radius: 100%;
+    bottom: 0;
+}
+
+body > div:nth-child(4) > span:first-child {
+    border-top-left-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+body > div > span:nth-child(2) {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+
+    position: absolute;
+}
+
+body > div:first-child > span:nth-child(2) {
+    border-bottom-left-radius: 100%;
+    top: 0;
+    right: 0;
+}
+
+body > div:nth-child(2) > span:nth-child(2) {
+    border-bottom-right-radius: 100%;
+    top: 0;
+    left: 0;
+}
+
+body > div:nth-child(3) > span:nth-child(2) {
+    border-top-left-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+body > div:nth-child(4) > span:nth-child(2) {
+    border-top-right-radius: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+body > div:nth-child(5){
+    height: 150px;
+    width: 150px;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body >div:nth-child(6){
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body > div:first-child > span:nth-child(3) {
+    border-top-left-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+body > div:nth-child(2) > span:nth-child(3) {
+    border-top-right-radius: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+body > div:nth-child(3) > span:nth-child(3) {
+    border-bottom-left-radius: 100%;
+    top: 0;
+    right: 0;
+}
+
+body > div:nth-child(4) > span:nth-child(3) {
+    border-bottom-right-radius: 100%;
+    top: 0;
+    left: 0;
+}
+
+body > div > span:nth-child(5) {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body > div:first-child > span:nth-child(4) {
+    border-top-left-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+body > div:nth-child(2) > span:nth-child(4) {
+    border-top-right-radius: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+body > div:nth-child(3) > span:nth-child(4) {
+    border-bottom-left-radius: 100%;
+    top: 0;
+    right: 0;
+}
+
+body > div:nth-child(4) > span:nth-child(4) {
+    border-bottom-right-radius: 100%;
+    top: 0;
+    left: 0;
+}
+
+body > div > span:nth-child(6) {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
