@@ -1,0 +1,36 @@
+body>div{
+    width: 15vw;
+    height: 30vh;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 10px solid grey;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+body>div>div{
+    width: 14vw;
+    height: 28vh;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 10px solid red;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*body>div>p{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*}*/
