@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: red;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar>p{
+    color: white;
+    font-size: 2vw;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+.cardBody{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+#card2>nav{
+    background-color: darkgreen;
+}
+#card2>div{
+    background-color: green;
+}
+#card3>nav{
+    background-color: darkblue;
+}
+#card3>div{
+    background-color: blue;
+}
+#card4>nav{
+    background-color: grey;
+}
+#card4>div{
+    background-color: darkgray;
+}
